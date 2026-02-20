@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CupYork - Delicious Cupcakes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-white min-h-screen flex items-center justify-center p-4 md:p-8">
+
+    <div class="max-w-6xl w-full flex flex-col md:flex-row overflow-hidden shadow-2xl rounded-3xl min-h-[600px]">
+        
+        <!-- Left Section: Image Panel -->
+        <div class="md:w-1/2 bg-[#ff69b4] relative overflow-hidden flex items-center justify-center p-8">
+            <!-- Decorative logo placeholder top left -->
+            <div class="absolute top-8 left-8 text-white font-bold text-xl tracking-tight opacity-90">
+                SiteLogo
+            </div>
+            
+            <!-- Cupcake Image Placeholder -->
+            <div class="relative z-10 w-full transform hover:scale-105 transition-transform duration-500">
+                <img src="./93aa553c94aa1846608acad57ae3b9aa14669b1d.png" 
+                     alt="" 
+                     class="rounded-2xl shadow-2xl object-cover aspect-[4/3]">
+            </div>
+            
+            <!-- Abstract background shape -->
+            <div class="absolute -bottom-20 -right-20 w-80 h-80 bg-pink-400 rounded-full opacity-30 blur-3xl"></div>
+        </div>
+
+        <!-- Right Section: Content Panel -->
+        <div class="md:w-1/2 bg-[#fcfaff] p-10 md:p-16 flex flex-col justify-between">
+            
+            <!-- Top Navigation -->
+            <nav class="flex items-center justify-between mb-20 text-sm font-medium text-gray-600">
+                <div class="hidden lg:flex space-x-6">
+                    <a href="#" class="hover:text-purple-600 transition">About</a>
+                    <a href="#" class="hover:text-purple-600 transition">Features</a>
+                    <a href="#" class="hover:text-purple-600 transition">Pricing</a>
+                    <a href="#" class="hover:text-purple-600 transition">Gallery</a>
+                    <a href="#" class="hover:text-purple-600 transition">Team</a>
+                </div>
+                <button class="border border-gray-300 px-6 py-2 rounded-full hover:bg-white hover:shadow-sm transition ml-auto">
+                    Log in
+                </button>
+            </nav>
+
+            <!-- Main Hero Content -->
+            <div class="max-w-md">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-6">
+                    Delicious cupcakes<br> 
+                    from <span class="text-[#7b5ef2]">CupYork</span>
+                </h1>
+                <p class="text-gray-500 text-lg leading-relaxed mb-10">
+                    You beautiful and deserve delicious cupcakes. Buy it now and enjoy the tenderness!
+                </p>
+                <button class="bg-[#a855f7] hover:bg-[#9333ea] text-white px-10 py-4 rounded-full font-semibold shadow-lg shadow-purple-200 transition-all transform hover:-translate-y-1">
+                    Buy now
+                </button>
+            </div>
+
+            <!-- Footer Small Print -->
+            <footer class="mt-16 text-[10px] text-gray-400">
+                © 2024 CupYork. 770 Broadway, New York City, NY 10003-9595
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>
